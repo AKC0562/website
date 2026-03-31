@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAW ALMOND - Coaching Center</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- HEADER & NAVIGATION -->
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">RAW ALMOND</div>
+                <button class="hamburger" id="hamburgerBtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" onclick="closeMenu()">Home</a></li>
+                    <li><a href="#about" onclick="closeMenu()">About</a></li>
+                    <li><a href="#courses" onclick="closeMenu()">Courses</a></li>
+                    <li><a href="#features" onclick="closeMenu()">Features</a></li>
+                    <li><a href="#testimonials" onclick="closeMenu()">Testimonials</a></li>
+                    <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to RAW ALMOND</h1>
+            <p>Excellence in Education, Excellence in Results</p>
+            <button class="btn btn-primary" onclick="scrollToSection('courses')">Explore Courses</button>
+            <button class="btn btn-secondary" onclick="scrollToSection('contact')">Contact Us</button>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Why Choose RAW ALMOND?</h3>
+                    <p>RAW ALMOND is a premier coaching center dedicated to nurturing young minds and preparing students for competitive exams. With over 10 years of experience, we have helped thousands of students achieve their academic goals.</p>
+                    <ul class="features-list">
+                        <li><strong>Expert Faculty:</strong> Highly qualified and experienced teachers</li>
+                        <li><strong>Personalized Learning:</strong> Individual attention to each student</li>
+                        <li><strong>Updated Curriculum:</strong> Latest exam patterns and syllabus</li>
+                        <li><strong>Modern Infrastructure:</strong> State-of-the-art facilities</li>
+                        <li><strong>Success Rate:</strong> 95% of our students achieve top ranks</li>
+                    </ul>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <h3>10+</h3>
+                        <p>Years of Excellence</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>5000+</h3>
+                        <p>Students Trained</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>95%</h3>
+                        <p>Success Rate</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>50+</h3>
+                        <p>Expert Teachers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- COURSES SECTION -->
+    <section id="courses" class="courses">
+        <div class="container">
+            <h2>Our Courses</h2>
+            <p class="section-subtitle">Comprehensive programs tailored for your success</p>
+            <div class="courses-grid">
+                <article class="course-card">
+                    <div class="course-header">
+                        <h3>JEE Main & Advanced</h3>
+                        <span class="badge">Engineering</span>
+                    </div>
+                    <ul>
+                        <li>Physics, Chemistry, Mathematics</li>
+                        <li>Problem-solving techniques</li>
+                        <li>Mock tests & analysis</li>
+                        <li>One-on-one mentorship</li>
+                    </ul>
+                    <p class="course-duration">
+                        <strong>Duration:</strong> 12 months
+                    </p>
+                    <button class="btn btn-primary" onclick="alert('JEE Course Inquiry - Contact us for more details!')">Enroll Now</button>
+                </article>
+
+                <article class="course-card">
+                    <div class="course-header">
+                        <h3>NEET Preparation</h3>
+                        <span class="badge">Medical</span>
+                    </div>
+                    <ul>
+                        <li>Biology, Chemistry, Physics</li>
+                        <li>Comprehensive study material</li>
+                        <li>Weekly test series</li>
+                        <li>Doubt clearing sessions</li>
+                    </ul>
+                    <p class="course-duration">
+                        <strong>Duration:</strong> 12 months
+                    </p>
+                    <button class="btn btn-primary" onclick="alert('NEET Course Inquiry - Contact us for more details!')">Enroll Now</button>
+                </article>
+
+                <article class="course-card">
+                    <div class="course-header">
+                        <h3>Board Preparation</h3>
+                        <span class="badge">Class X & XII</span>
+                    </div>
+                    <ul>
+                        <li>All subjects covered</li>
+                        <li>Board exam focus</li>
+                        <li>Regular assessments</li>
+                        <li>Interactive classes</li>
+                    </ul>
+                    <p class="course-duration">
+                        <strong>Duration:</strong> As per schedule
+                    </p>
+                    <button class="btn btn-primary" onclick="alert('Board Course Inquiry - Contact us for more details!')">Enroll Now</button>
+                </article>
+
+                <article class="course-card">
+                    <div class="course-header">
+                        <h3>Foundation Course</h3>
+                        <span class="badge">Class VI - X</span>
+                    </div>
+                    <ul>
+                        <li>Science & Mathematics basics</li>
+                        <li>Concept building</li>
+                        <li>Fun learning approach</li>
+                        <li>Competitive exam prep</li>
+                    </ul>
+                    <p class="course-duration">
+                        <strong>Duration:</strong> Flexible
+                    </p>
+                    <button class="btn btn-primary" onclick="alert('Foundation Course Inquiry - Contact us for more details!')">Enroll Now</button>
+                </article>
+
+                <article class="course-card">
+                    <div class="course-header">
+                        <h3>Olympiad Coaching</h3>
+                        <span class="badge">All Classes</span>
+                    </div>
+                    <ul>
+                        <li>Math & Science Olympiads</li>
+                        <li>Advanced problem solving</li>
+                        <li>International standard</li>
+                        <li>Expert guidance</li>
+                    </ul>
+                    <p class="course-duration">
+                        <strong>Duration:</strong> 6 months
+                    </p>
+                    <button class="btn btn-primary" onclick="alert('Olympiad Course Inquiry - Contact us for more details!')">Enroll Now</button>
+                </article>
+
+                <article class="course-card">
+                    <div class="course-header">
+                        <h3>Spoken English</h3>
+                        <span class="badge">Communication</span>
+                    </div>
+                    <ul>
+                        <li>Fluency improvement</li>
+                        <li>Grammar & vocabulary</li>
+                        <li>Confidence building</li>
+                        <li>Interactive sessions</li>
+                    </ul>
+                    <p class="course-duration">
+                        <strong>Duration:</strong> 3-6 months
+                    </p>
+                    <button class="btn btn-primary" onclick="alert('English Course Inquiry - Contact us for more details!')">Enroll Now</button>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURES SECTION -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Why We're Different</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <h3> Expert Faculty</h3>
+                    <p>Our teachers are industry experts with years of teaching experience and passion for education.</p>
+                </div>
+                <div class="feature-item">
+                    <h3> Digital Learning</h3>
+                    <p>Access to online materials, video lectures, and interactive learning platforms.</p>
+                </div>
+                <div class="feature-item">
+                    <h3> Personalized Approach</h3>
+                    <p>Individual attention with customized learning plans for each student.</p>
+                </div>
+                <div class="feature-item">
+                    <h3> Regular Assessment</h3>
+                    <p>Continuous evaluation through tests, assignments, and performance tracking.</p>
+                </div>
+                <div class="feature-item">
+                    <h3> Small Batch Size</h3>
+                    <p>Limited students per class ensures quality education and better focus.</p>
+                </div>
+                <div class="feature-item">
+                    <h3> Mentorship Program</h3>
+                    <p>One-on-one guidance from mentors for career and academic planning.</p>
+                </div>
+                <div class="feature-item">
+                    <h3> Study Materials</h3>
+                    <p>Comprehensive notes, practice papers, and solved examples provided.</p>
+                </div>
+                <div class="feature-item">
+                    <h3> Success Guarantee</h3>
+                    <p>We stand behind our students' success with proven track record.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CLASS SCHEDULE TABLE -->
+    <section class="schedule">
+        <div class="container">
+            <h2>Class Schedule</h2>
+            <div class="table-wrapper">
+                <table class="schedule-table">
+                    <thead>
+                        <tr>
+                            <th>Time Slot</th>
+                            <th>Class</th>
+                            <th>Subject</th>
+                            <th>Teacher</th>
+                            <th>Room No.</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>6:00 AM - 7:30 AM</td>
+                            <td>Batch A (X-XII)</td>
+                            <td>Mathematics</td>
+                            <td>Mr. Sharma</td>
+                            <td>101</td>
+                        </tr>
+                        <tr>
+                            <td>8:00 AM - 9:30 AM</td>
+                            <td>Batch B (JEE)</td>
+                            <td>Physics</td>
+                            <td>Mr. Patel</td>
+                            <td>102</td>
+                        </tr>
+                        <tr>
+                            <td>10:00 AM - 11:30 AM</td>
+                            <td>Batch C (NEET)</td>
+                            <td>Chemistry</td>
+                            <td>Ms. Kumar</td>
+                            <td>103</td>
+                        </tr>
+                        <tr>
+                            <td>4:00 PM - 5:30 PM</td>
+                            <td>Batch D (Foundation)</td>
+                            <td>English</td>
+                            <td>Mrs. Singh</td>
+                            <td>104</td>
+                        </tr>
+                        <tr>
+                            <td>6:00 PM - 7:30 PM</td>
+                            <td>Batch E (Olympiad)</td>
+                            <td>Problem Solving</td>
+                            <td>Dr. Verma</td>
+                            <td>105</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>Student Testimonials</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p>"RAW ALMOND helped me crack JEE Main with AIR 245. The teachers are amazing and the study material is excellent."</p>
+                    <h4>Rahul Sharma</h4>
+                    <p class="role">JEE Main Aspirant</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p>"The NEET preparation was comprehensive. I got selected in AIIMS Delhi. Thank you RAW ALMOND!"</p>
+                    <h4>Priya Verma</h4>
+                    <p class="role">NEET Aspirant</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p>"Board exam scores improved significantly because of the personalized attention. Highly recommended!"</p>
+                    <h4>Ankit Kumar</h4>
+                    <p class="role">Class XII Student</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p>"The foundation course gave me a strong base for competitive exams. Best institute in the city!"</p>
+                    <h4>Neha Singh</h4>
+                    <p class="role">Class X Student</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <div class="info-item">
+                        <strong>📍 Address:</strong>
+                        <p>123 Education Street, Learning City<br/>State - 12345</p>
+                    </div>
+                    <div class="info-item">
+                        <strong>📞 Phone:</strong>
+                        <p>+91 98765 43210<br/>+91 12345 67890</p>
+                    </div>
+                    <div class="info-item">
+                        <strong>📧 Email:</strong>
+                        <p>info@rawalmonds.com<br/>admissions@rawalmonds.com</p>
+                    </div>
+                    <div class="info-item">
+                        <strong>⏰ Working Hours:</strong>
+                        <p>Monday - Saturday: 6:00 AM - 8:00 PM<br/>Sunday: 10:00 AM - 4:00 PM</p>
+                    </div>
+                </div>
+
+                <form class="contact-form" onsubmit="submitForm(event)">
+                    <h3>Send us a Message</h3>
+                    <fieldset>
+                        <legend>Inquiry Form</legend>
+                        
+                        <div class="form-group">
+                            <label for="name">Full Name<span class="required">*</span></label>
+                            <input type="text" id="name" name="name" required placeholder="Enter your name">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address<span class="required">*</span></label>
+                            <input type="email" id="email" name="email" required placeholder="your@email.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number<span class="required">*</span></label>
+                            <input type="tel" id="phone" name="phone" required placeholder="+91-98765-43210">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="course">Select Course<span class="required">*</span></label>
+                            <select id="course" name="course" required>
+                                <option value="">-- Select a course --</option>
+                                <option value="jee">JEE Main & Advanced</option>
+                                <option value="neet">NEET Preparation</option>
+                                <option value="board">Board Preparation</option>
+                                <option value="foundation">Foundation Course</option>
+                                <option value="olympiad">Olympiad Coaching</option>
+                                <option value="english">Spoken English</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="class">Current Class<span class="required">*</span></label>
+                            <input type="text" id="class" name="class" required placeholder="e.g., X, XI, XII">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tell us more about your inquiry..."></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label>
+                                <input type="checkbox" name="terms" required>
+                                I agree to the terms and conditions
+                            </label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Submit Inquiry</button>
+                        <button type="reset" class="btn btn-secondary">Clear Form</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>RAW ALMOND</h4>
+                <p>Your trusted partner in academic excellence and competitive exam preparation.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Courses</h4>
+                <ul>
+                    <li><a href="#courses">JEE Preparation</a></li>
+                    <li><a href="#courses">NEET Preparation</a></li>
+                    <li><a href="#courses">Board Classes</a></li>
+                    <li><a href="#courses">Foundation Course</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="#" title="Facebook">Facebook</a> | 
+                    <a href="#" title="Twitter">Twitter</a> | 
+                    <a href="#" title="Instagram">Instagram</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 RAW ALMOND Coaching Center. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- BACK TO TOP BUTTON -->
+    <button id="backToTop" class="back-to-top" title="Back to Top" onclick="scrollToTop()">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
