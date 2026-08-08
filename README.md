@@ -1,4 +1,4 @@
-# RAW ALMOND - Coaching Center Website
+# SGI - Coaching Center Website
 
 A comprehensive, responsive website for RAW ALMOND coaching center built with vanilla HTML, CSS, and JavaScript. This project is designed as an educational clone that covers all essential HTML, CSS, and JavaScript concepts taught in an academic year.
 
