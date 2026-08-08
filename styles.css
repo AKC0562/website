@@ -6,12 +6,12 @@
 }
 
 :root {
-    --primary-color: #8B4513;
-    --secondary-color: #D2B48C;
-    --dark-color: #2c2c2c;
-    --light-color: #f8f9fa;
+    --primary-color: #0b57d0;
+    --secondary-color: #dfeeff;
+    --dark-color: #0f172a;
+    --light-color: #f4f8ff;
     --text-color: #333;
-    --border-color: #ddd;
+    --border-color: #d9e7ff;
     --success-color: #28a745;
     --warning-color: #ffc107;
     --danger-color: #dc3545;
@@ -134,9 +134,9 @@ header {
 }
 
 .btn-primary:hover {
-    background-color: #6d3410;
+    background-color: #0847a8;
     transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(139, 69, 19, 0.3);
+    box-shadow: 0 5px 15px rgba(11, 87, 208, 0.3);
 }
 
 .btn-secondary {
@@ -146,13 +146,13 @@ header {
 }
 
 .btn-secondary:hover {
-    background-color: #c9a87c;
+    background-color: #c8dcff;
     transform: translateY(-2px);
 }
 
 /* ==================== HERO SECTION ==================== */
 .hero {
-    background: linear-gradient(135deg, var(--primary-color) 0%, #a0522d 100%);
+    background: linear-gradient(135deg, var(--primary-color) 0%, #0a3b99 100%);
     color: white;
     padding: 120px 20px;
     text-align: center;
@@ -331,7 +331,7 @@ section h2::after {
 
 .course-card:hover {
     border-color: var(--primary-color);
-    box-shadow: 0 8px 25px rgba(139, 69, 19, 0.15);
+    box-shadow: 0 8px 25px rgba(11, 87, 208, 0.15);
     transform: translateY(-5px);
 }
 
@@ -461,7 +461,7 @@ section h2::after {
 }
 
 .schedule-table tbody tr:hover {
-    background-color: rgba(210, 180, 140, 0.2);
+    background-color: rgba(11, 87, 208, 0.08);
 }
 
 /* ==================== TESTIMONIALS SECTION ==================== */
@@ -714,7 +714,7 @@ label:has(input[type="checkbox"]) {
 }
 
 .back-to-top:hover {
-    background-color: #6d3410;
+    background-color: #0847a8;
     transform: scale(1.1);
 }
 

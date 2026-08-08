@@ -289,9 +289,9 @@ document.querySelectorAll('.course-card, .feature-item, .testimonial-card, .stat
 });
 
 // ==================== CONSOLE MESSAGE ====================
-console.log('%c Welcome to RAW ALMOND Coaching Center', 'color: #8B4513; font-size: 20px; font-weight: bold;');
-console.log('%c Excellence in Education, Excellence in Results', 'color: #D2B48C; font-size: 14px;');
-console.log('%c Keyboard Shortcuts:', 'color: #8B4513; font-weight: bold;');
+console.log('%c Welcome to SkyGlobal Institute Coaching Center', 'color: #0b57d0; font-size: 20px; font-weight: bold;');
+console.log('%c Excellence in Education, Excellence in Results', 'color: #dfeeff; font-size: 14px;');
+console.log('%c Keyboard Shortcuts:', 'color: #0b57d0; font-weight: bold;');
 console.log('Ctrl + H - Go to Home');
 console.log('Ctrl + C - Go to Courses');
 console.log('Ctrl + T - Scroll to Top');
