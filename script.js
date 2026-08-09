@@ -91,11 +91,11 @@ function submitForm(event) {
     
     // If all validations pass, show success message
     const courseNames = {
-        'jee': 'JEE Main & Advanced',
-        'neet': 'NEET Preparation',
-        'board': 'Board Preparation',
+        'jee': 'Front Office Management',
+        'neet': 'Food &amp; Beverage Service',
+        'board': 'Housekeeping Operations',
         'foundation': 'Foundation Course',
-        'olympiad': 'Olympiad Coaching',
+        'olympiad': 'Professional Grooming',
         'english': 'Spoken English'
     };
     
@@ -110,7 +110,7 @@ Your Details:
 
 We will contact you soon to discuss your enrollment and provide more details about the course.
 
-For immediate assistance, please call us at: +91 98765 43210
+For immediate assistance, please call us at: +91 9821497116
     `;
     
     alert(successMessage);
