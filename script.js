@@ -110,7 +110,7 @@ Your Details:
 
 We will contact you soon to discuss your enrollment and provide more details about the course.
 
-For immediate assistance, please call us at: +91 9821497116
+For immediate assistance, please call us at:    +91 9821497116
     `;
     
     alert(successMessage);
